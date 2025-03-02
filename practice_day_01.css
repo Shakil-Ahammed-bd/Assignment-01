@@ -1,0 +1,264 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    font-size: 20px;
+    
+}
+.logo{
+    width: 100px;
+}
+.nev-li{
+    list-style: none;
+    color: rgb(218, 158, 5);
+}
+.nev-li:hover{
+    cursor: pointer;
+    color: white;
+}
+.menu-container{
+    display: flex;
+    gap: 15px;
+}
+.line01{
+    font-size: 35px;
+    font-style: normal;
+    color: rgb(220, 163, 17);
+}
+.line02{
+    font-size: 45px;
+    font-style: italic;
+    color: white;
+}
+.btn{
+    color: rgb(13, 13, 13);
+    width: 25%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    box-shadow: 2px 2px 4px;
+    border-radius: 5px;
+    background-color: goldenrod;
+}
+.shakil{
+    height: 90vh;
+    width: 90%;
+    padding-bottom: 10px;
+}
+.header-container{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(image/security.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo-image{
+    width: 8%;
+    height: 30vh;
+}
+.img{
+    width: 200px;
+    height: 200px;
+}
+.logo-image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    padding: 50px;
+    margin: auto;
+    box-shadow: 0px 0px 8px gray;
+    background-color: rgb(189, 197, 197);
+    margin-top: 10px;
+    height: 40vh;
+    width: 80%;
+   
+}
+.he{
+    font-size: 40px;
+    font-style: normal;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.pa{
+    font-size: 15px;
+    font-style: normal;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+/* chatgpt  */
+
+
+.container {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    max-width: 80%;
+    margin: auto;
+    border: 3px black;
+    line-height: 1.5;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    margin: auto;
+
+}
+.card img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.divider {
+    width: 50px;
+    height: 2px;
+    background: orange;
+    margin: 10px auto;
+}
+
+.card p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+.second-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+}
+h1{
+    font-size: 40px;
+    color: #333;
+    /* margin-bottom: 20px; */
+    margin-top: 20px;
+}
+.highlight{
+    color: gold;
+}
+p{
+    font-size: 17px;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+.second-container-image{
+    background-image: linear-gradient(rgba(252, 248, 246,0.8),rgba(237, 229, 229,0.5)), url(image/backround\ imgae.png);
+
+}
+h3{
+    font-size: 30px;
+}
+phone{
+    font-size: 25px;
+}
+.second-container-second-part{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    margin: auto;
+}
+.call{
+    width: 120px;
+    height: 100px;
+}
+.second{
+    background-color: rgb(53, 213, 213);
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 50vh;
+    margin-top: 50px;
+    /* margin-bottom: 40px; */
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    color: #f99b30;
+}
+.email{
+    width: 300px;
+    height: 40px;
+    background-color: #474444;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.footer-image{
+    width: 100px;
+    height: 100px;
+}
+.light{
+    color: #f99b30;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.footer-p{
+    color: #9a9292;
+}
+li{
+    color: #908b8b;
+    list-style: none;
+}
+.footer-h2{
+    color: #918282;
+}
+
+.div-1{
+    margin-top: 30px;
+    line-height: 1.5;
+}
+.div-2{
+    margin-top: 30px;
+    line-height: 1.5;
+}
+.div-3{
+    margin-top: 30px;
+    line-height: 1.5;
+}
+.div-4{
+    margin-top: 30px;
+    line-height: 1.5;
+}
+.div-5{
+    margin-top: 30px;
+    line-height: 1.5;
+}
